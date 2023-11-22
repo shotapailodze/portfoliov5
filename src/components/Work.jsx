@@ -3,32 +3,18 @@ import WorkItem from "./WorkItem";
 
 const data = [
   {
-    year: 2020,
-    title: "Freelancer",
-    duration: "3 Years",
+    year: 2017,
+    title: "Military Service",
+    duration: "6 Years",
     details:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed voluptatum, delectus corporis animi quibusdam earum deleniti fuga laborum temporibus? Velit!",
-  },
-  {
-    year: 2021,
-    title: "Freelancer",
-    duration: "3 Years",
-    details:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed voluptatum, delectus corporis animi quibusdam earum deleniti fuga laborum temporibus? Velit!",
+      "During my tenure in the military, I honed a robust set of skills that uniquely contribute to my success as a developer: Leadership and Team Management, Discipline and Time Management, Adaptability and Resilience",
   },
   {
     year: 2022,
-    title: "Freelancer",
-    duration: "3 Years",
+    title: "Front End Developer | Freelancer",
+    duration: "1 Year",
     details:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed voluptatum, delectus corporis animi quibusdam earum deleniti fuga laborum temporibus? Velit!",
-  },
-  {
-    year: 2023,
-    title: "Freelancer",
-    duration: "3 Years",
-    details:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed voluptatum, delectus corporis animi quibusdam earum deleniti fuga laborum temporibus? Velit!",
+      "As a passionate front-end web developer, I leverage a unique blend of skills cultivated during my service in the military to create dynamic and engaging digital experiences. My focus on discipline, attention to detail, and adaptability has seamlessly translated into the world of web development.",
   },
 ];
 

@@ -13,10 +13,30 @@ const Projects = () => {
       </h1>
       <p className="text-center py-8">Here are some of my projects</p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItem img={ecom} title="Ecom App" />
-        <ProjectItem img={tesla} title="Tesla Clone" />
-        <ProjectItem img={foodordering} title="Food Ordering App" />
-        <ProjectItem img={threadsclone} title="Threads Clone" />
+        <ProjectItem
+          img={ecom}
+          title="Ecom App"
+          link="https://github.com/shotapailodze/crown-clothing"
+          tools="React, Redux, Firebase, Styled Components"
+        />
+        <ProjectItem
+          img={tesla}
+          title="Tesla Clone"
+          link="https://github.com/shotapailodze/tesla-clone"
+          tools="React Js"
+        />
+        <ProjectItem
+          img={foodordering}
+          title="Food Ordering App"
+          link="https://github.com/shotapailodze/Food-Delivery"
+          tools="React, Tailwind"
+        />
+        <ProjectItem
+          img={threadsclone}
+          title="Threads Clone"
+          link="https://github.com/shotapailodze/threads-clone"
+          tools="React Js"
+        />
       </div>
     </div>
   );
