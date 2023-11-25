@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
 import ecom from "../assets/1.png";
-import tesla from "../assets/2.png";
+import crypto from "../assets/crypto.png";
 import foodordering from "../assets/3.png";
 import threadsclone from "../assets/4.jpg";
 
@@ -20,10 +20,10 @@ const Projects = () => {
           tools="React, Redux, Firebase, Styled Components"
         />
         <ProjectItem
-          img={tesla}
-          title="Tesla Clone"
-          link="https://github.com/shotapailodze/tesla-clone"
-          tools="React Js"
+          img={crypto}
+          title="Cryptobase"
+          link="https://github.com/shotapailodze/crypto"
+          tools="React Hooks, Context, React-Router-Dom, useParams, Light/Dark Theme, Tailwind, Authentication, Firebase, API, Hosting and more!"
         />
         <ProjectItem
           img={foodordering}
