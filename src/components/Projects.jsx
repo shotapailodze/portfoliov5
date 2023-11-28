@@ -2,7 +2,7 @@ import React from "react";
 import ProjectItem from "./ProjectItem";
 import ecom from "../assets/1.png";
 import crypto from "../assets/crypto.png";
-import foodordering from "../assets/3.png";
+import netflix from "../assets/3.png";
 import threadsclone from "../assets/4.jpg";
 
 const Projects = () => {
@@ -17,24 +17,28 @@ const Projects = () => {
           img={ecom}
           title="Ecom App"
           link="https://github.com/shotapailodze/crown-clothing"
+          live="https://reactshopify-carts.netlify.app/"
           tools="React, Redux, Firebase, Styled Components"
         />
         <ProjectItem
           img={crypto}
           title="Cryptobase"
           link="https://github.com/shotapailodze/crypto"
+          live="https://cryptobase-2e0e7.web.app/"
           tools="React Hooks, Context, React-Router-Dom, useParams, Light/Dark Theme, Tailwind, Authentication, Firebase, API, Hosting and more!"
         />
         <ProjectItem
-          img={foodordering}
-          title="Food Ordering App"
-          link="https://github.com/shotapailodze/Food-Delivery"
-          tools="React, Tailwind"
+          img={netflix}
+          title="Netflix Clone"
+          link="https://github.com/shotapailodze/netflix"
+          live="https://netflix-6b5fe.web.app/"
+          tools="React, React Router, Tailwind, TMDB Api, Firebase"
         />
         <ProjectItem
           img={threadsclone}
           title="Threads Clone"
           link="https://github.com/shotapailodze/threads-clone"
+          live=""
           tools="React Js"
         />
       </div>

@@ -40,9 +40,9 @@ const Main = () => {
             <a href="https://github.com/shotapailodze" target="_blank">
               <FaGithub size={20} className="cursor-pointer" />
             </a>
-            <a href="https://www.instagram.com/pailodzee/" target="_blank">
+            {/* <a href="https://www.instagram.com/" target="_blank">
               <FaInstagram size={20} className="cursor-pointer" />
-            </a>
+            </a> */}
             <a href="https://www.linkedin.com/in/pailodze/" target="_blank">
               <FaLinkedinIn size={20} className="cursor-pointer" />
             </a>
