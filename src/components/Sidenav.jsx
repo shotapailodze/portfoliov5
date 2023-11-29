@@ -7,6 +7,9 @@ import {
 } from "react-icons/ai";
 import { GrProjects } from "react-icons/gr";
 import { BsPerson } from "react-icons/bs";
+import { GiSkills } from "react-icons/gi";
+import { SiAboutdotme } from "react-icons/si";
+
 import CV from "../CVV.pdf";
 
 const Sidenav = () => {
@@ -29,6 +32,22 @@ const Sidenav = () => {
           >
             <AiOutlineHome size={20} />
             <span className="pl-4">Home</span>
+          </a>
+          <a
+            onClick={handleNav}
+            href="#about"
+            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+          >
+            <SiAboutdotme size={20} />
+            <span className="pl-4">About Me</span>
+          </a>
+          <a
+            onClick={handleNav}
+            href="#skills"
+            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+          >
+            <GiSkills size={20} />
+            <span className="pl-4">Skills</span>
           </a>
           <a
             onClick={handleNav}
@@ -74,6 +93,18 @@ const Sidenav = () => {
             className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <AiOutlineHome size={20} />
+          </a>
+          <a
+            href="#about"
+            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+          >
+            <SiAboutdotme size={20} />
+          </a>
+          <a
+            href="#skills"
+            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+          >
+            <GiSkills size={20} />
           </a>
           <a
             href="#work"

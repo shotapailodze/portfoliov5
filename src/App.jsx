@@ -1,7 +1,9 @@
+import About from "./components/About";
 import Contact from "./components/Contact";
 import Main from "./components/Main";
 import Projects from "./components/Projects";
 import Sidenav from "./components/Sidenav";
+import Skills from "./components/Skills";
 import Work from "./components/Work";
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
     <div>
       <Sidenav />
       <Main />
+      <About />
+      <Skills />
       <Work />
       <Projects />
       <Contact />
