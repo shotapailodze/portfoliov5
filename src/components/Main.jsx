@@ -16,13 +16,13 @@ const Main = () => {
             I'm Shota Pailodze
           </h1>
           <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-300">
-            I'm a
+            {/* I'm a */}
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
-                "Developer",
+                "Front-End Alchemist",
                 2000, // wait 1s before replacing "Mice" with "Hamsters"
-                "Coder",
+                "Web Developer Extraordinaire",
                 2000,
                 "Tech Enthusiast",
                 2000,

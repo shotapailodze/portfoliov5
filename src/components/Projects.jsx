@@ -4,6 +4,7 @@ import ecom from "../assets/1.png";
 import crypto from "../assets/crypto.png";
 import netflix from "../assets/3.png";
 import threadsclone from "../assets/4.jpg";
+import dashboard from "../assets/dashboard.png";
 
 const Projects = () => {
   return (
@@ -35,11 +36,11 @@ const Projects = () => {
           tools="React, React Router, Tailwind, TMDB Api, Firebase"
         />
         <ProjectItem
-          img={threadsclone}
-          title="Threads Clone"
-          link="https://github.com/shotapailodze/threads-clone"
-          live=""
-          tools="React Js"
+          img={dashboard}
+          title="React Dashboard"
+          link="https://github.com/shotapailodze/react-dashboard"
+          live="https://ubiquitous-frangipane-b92cec.netlify.app/"
+          tools="React, Tailwind, Tremor"
         />
       </div>
     </div>
